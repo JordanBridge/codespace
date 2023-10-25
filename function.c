@@ -14,12 +14,12 @@ int main(void)
 
     if(valid_triangle(a,b,c))
     {
-        printf("This is a valid triangle");
+        printf("This is a valid triangle\n");
     }
 
     else
     {
-        printf("This triangle is wrong!");
+        printf("This triangle is wrong! \n");
     }
 
 }
