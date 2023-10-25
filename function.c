@@ -32,12 +32,11 @@ int valid_triangle(int a, int b, int c)
     {
 
         a + b > c;
-        
+
         return 1;
     }
     else
     {
-        printf("YOU ARE WRONG!");
         return 0;
     }
 
