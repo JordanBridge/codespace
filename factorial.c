@@ -7,6 +7,7 @@ int main(void)
 {
 
     int n = get_int("Please enter a number for the Colatz Sequence: ");
+    printf(colatz(n));
 
 }
 
