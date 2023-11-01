@@ -22,9 +22,9 @@ int colatz(int n)
     {
         int number;
 
-        number = n/2;
+        n = n/2;
 
-        printf("%i",number);
+        printf("%i",n);
 
         return colatz(n);
     }
@@ -33,9 +33,9 @@ int colatz(int n)
     {
         int number;
 
-        number = 3 * n + 1;
+        n = 3 * n + 1;
 
-        printf("%i",number);
+        printf("%i",n);
 
         return colatz(n);
     }
