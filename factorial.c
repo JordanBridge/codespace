@@ -18,6 +18,13 @@ int colatz(int n)
         return 1;
     }
 
-    else if(n )
+    else if(n/2 == int)
+    {
+        int number;
+
+        number = n/2;
+
+        printf("%i",number);
+    }
 
 }
