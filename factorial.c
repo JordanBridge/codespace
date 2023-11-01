@@ -2,7 +2,7 @@
 #include<cs50.h>
 
 int colatz(int n);
-int ColatzList[n];
+int steps;
 
 int main(void)
 {
@@ -20,10 +20,6 @@ int colatz(int n)
     {
         return 1;
     }
-    else if(n != 1)
-    {
-        int ColatzList[n];
-    }
     else if(n%2 == 0)
     {
 
@@ -31,7 +27,10 @@ int colatz(int n)
 
         printf("%i \n",n);
 
+        steps = steps + 1;
+
         return colatz(n);
+        return steps;
     }
 
     else
@@ -41,7 +40,10 @@ int colatz(int n)
 
         printf("%i \n",n);
 
+        steps = steps + 1;
+
         return colatz(n);
+        return steps;
     }
 
 }
