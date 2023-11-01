@@ -6,7 +6,7 @@ int colatz(int n);
 int main(void)
 {
 
-    colatz(n) = get_int("Please enter a number for the Colatz Sequence: ");
+    int n = get_int("Please enter a number for the Colatz Sequence: ");
 
 }
 
