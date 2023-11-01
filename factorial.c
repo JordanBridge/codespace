@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<cs50.h>
 
-int colatz, n;
+int colatz
+int n;
 
 int main(void)
 {
@@ -10,12 +11,13 @@ int main(void)
 }
 
 
-int colatz, n;
+int colatz(int n)
+{
+    if(n==1)
+    {
+        return 1;
+    }
 
-if(int colatz){
-
-
-
-
+    else if(n )
 
 }
