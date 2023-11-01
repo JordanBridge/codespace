@@ -2,6 +2,7 @@
 #include<cs50.h>
 
 int colatz(int n);
+int ColatzList[n];
 
 int main(void)
 {
@@ -21,7 +22,7 @@ int colatz(int n)
     }
     else if(n != 1)
     {
-        n
+        int ColatzList[n];
     }
     else if(n%2 == 0)
     {
