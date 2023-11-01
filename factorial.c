@@ -25,15 +25,19 @@ int colatz(int n)
         number = n/2;
 
         printf("%i",number);
+
+        return colatz(n);
     }
 
-    else()
+    else
     {
         int number;
 
         number = 3 * n + 1;
 
         printf("%i",number);
+
+        return colatz(n);
     }
 
 }
