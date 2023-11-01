@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<cs50.h>
 
-int colatz();
+int colatz(int n);
 
 int main(void)
 {
-    
-    n = get_int("Please enter a number for the Colatz Sequence: ");
+
+    colatz(n) = get_int("Please enter a number for the Colatz Sequence: ");
 
 }
 
