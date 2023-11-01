@@ -19,7 +19,10 @@ int colatz(int n)
     {
         return 1;
     }
-
+    else if(n != 1)
+    {
+        n
+    }
     else if(n%2 == 0)
     {
 
