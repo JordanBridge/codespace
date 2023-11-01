@@ -9,7 +9,7 @@ int main(void)
 
     int n = get_int("Please enter a number for the Colatz Sequence: ");
     int colatz_sequence = colatz(n);
-    printf("%i",colatz_sequence);
+    printf(" We have arrrived at %i it took %i steps to get here! \n",colatz_sequence, steps);
 
 }
 
