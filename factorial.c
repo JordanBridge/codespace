@@ -22,7 +22,6 @@ int colatz(int n)
 
     else if(n%2 == 0)
     {
-        int number;
 
         n = n/2;
 
@@ -33,7 +32,6 @@ int colatz(int n)
 
     else
     {
-        int number;
 
         n = 3 * n + 1;
 
