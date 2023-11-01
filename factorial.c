@@ -27,7 +27,7 @@ int colatz(int n)
         printf("%i",number);
     }
 
-    else
+    else()
     {
         int number;
 
