@@ -14,11 +14,19 @@ int main(int argc, char *argv[])
 
     // Create a new block of memory to store filename
     char *filename = malloc(sizeof(char) * filename_length);
-    free(filename);
     // Copy argv[1] into block of memory for filename
     sprintf(filename, "%s", argv[1]);
 
     // Open new file under the name stored at filename
     FILE *new_file = fopen(filename, "w");
+    if(new_file == NULL)
+    {
+        printf("Could not create file. \n");
+        return 1;
+    }
+
+    
     fclose(new_file);
+
+    free(filename);
 }
