@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
     // Create a new block of memory to store filename
     char *filename = malloc(sizeof(char) * filename_length);
-    
+    free(filename);
     // Copy argv[1] into block of memory for filename
     sprintf(filename, "%s", argv[1]);
 
