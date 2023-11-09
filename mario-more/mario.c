@@ -4,6 +4,8 @@
 int main(void)
 {
 
+    int plevels;
+
     printf("Welcome To Mario Land, lets make a pryamid today! :D\n");
 
     //get base level
@@ -19,15 +21,16 @@ int main(void)
 
     else if(plevels > 8)
     {
-        printf("This value is too high!\n")
+        printf("This value is too high!\n");
         return 0;
     }
 
     else
     {
-        for(plevels; plevels < plevels + 1; plevels++)
+        for(int i ; i < i + 1; i++)
         {
             printf("#  # \n");
+            return
         }
 
     }
