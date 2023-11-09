@@ -24,9 +24,9 @@ int main(void)
     for(years = 0; start_size >= end_size; years++)
     {
         start_size = start_size + (start_size/3) - (end_size/4);
-
-        return years;
     }
+
+    return years;
     // TODO: Print number of years
 
     printf("It would take %i years for your llamas to reach your goal", years);
