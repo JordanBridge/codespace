@@ -30,7 +30,7 @@ int main(void)
         for(int i ; i < i + 1; i++)
         {
             printf("#  # \n");
-            return
+            return 0;
         }
 
     }
