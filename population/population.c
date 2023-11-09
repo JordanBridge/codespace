@@ -18,7 +18,7 @@ int main(void)
     {
         end_size = get_int("Please Give Me A End Size: ");
     }
-    while(end_size > start_size);
+    while(end_size < start_size);
     // TODO: Calculate number of years until we reach threshold
     int i;
     int llamas_alive =0;
