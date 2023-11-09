@@ -27,7 +27,7 @@ int main(void)
 
     else
     {
-        for(int i ; i < i + 1; i++)
+        for(int i = 0; i < i + 1; i++)
         {
             printf("#  # \n");
             return 0;
