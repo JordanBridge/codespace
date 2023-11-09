@@ -9,7 +9,12 @@ int main(void)
     printf("Welcome To Mario Land, lets make a pryamid today! :D\n");
 
     //get base level
-    plevels = get_int("How many levels do you want your pyramid to have??\n");
+    do
+    {
+        plevels = get_int("How many levels do you want your pyramid to have??\n");
+    }
+
+    while(plevels < 1 || plevels > 8)
 
 
     //validate base level
