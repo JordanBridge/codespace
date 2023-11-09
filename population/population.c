@@ -25,7 +25,6 @@ int main(void)
     for(i = 1; start_size >= end_size; i++)
     {
         llamas_alive = llamas_alive + (start_size/3) - (end_size/4);
-        return i;
     }
     // TODO: Print number of years
 
