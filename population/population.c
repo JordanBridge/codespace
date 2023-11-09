@@ -20,7 +20,7 @@ int main(void)
     }
     while(end_size < start_size);
     // TODO: Calculate number of years until we reach threshold
-    int years = 23;
+    int years = 0;
     while (start_size >= end_size)
     {
         start_size = start_size + (start_size/3) - (end_size/4);
