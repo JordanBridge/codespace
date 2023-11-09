@@ -9,16 +9,16 @@ int main(void)
     // TODO: Prompt for start size
     do
     {
-       start_size = get_int("Please Enter a start size");
+       start_size = get_int("Please Enter a start size: ");
     }
     while(start_size <= 9);
     // TODO: Prompt for end size
 
     do
     {
-        end_size = get_int("Please Give Me A End Size");
+        end_size = get_int("Please Give Me A End Size: ");
     }
-    while(end_size >= start_size);
+    while(end_size > start_size);
     // TODO: Calculate number of years until we reach threshold
     int i;
     int llamas_alive =0;
