@@ -18,9 +18,11 @@ int main(void)
     while(end_size >= start_size);
     // TODO: Calculate number of years until we reach threshold
 
-    for(start_size; start_size <= end_size; i++)
+    for(int i = 1; start_size <= end_size; i++)
     {
         int llamas_alive = llamas_alive + (start_size/3) - llamas(n/4);
     }
     // TODO: Print number of years
+
+    printf("It would take %i years for your llamas to reach your goal", i);
 }
