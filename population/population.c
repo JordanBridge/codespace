@@ -22,7 +22,7 @@ int main(void)
     // TODO: Calculate number of years until we reach threshold
     int i;
     int llamas_alive =0;
-    for(i = 1; start_size <= end_size; i++)
+    for(i = 1; start_size >= end_size; i++)
     {
         llamas_alive = llamas_alive + (start_size/3) - (end_size/4);
         return 1;
