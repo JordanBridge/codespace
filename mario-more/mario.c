@@ -14,7 +14,7 @@ int main(void)
         plevels = get_int("How many levels do you want your pyramid to have??\n");
     }
 
-    while(plevels < 1 || plevels > 8)
+    while(plevels < 1 || plevels > 8);
 
 
     //validate base level
@@ -37,8 +37,6 @@ int main(void)
             printf("##");
             print("  "):
             print("##\n");
-
-            strca
         }
 
     }
