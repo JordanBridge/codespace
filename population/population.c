@@ -31,3 +31,4 @@ int main(void)
 
     printf("It would take %i years for your llamas to reach your goal\n", years);
 }
+
