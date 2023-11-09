@@ -35,8 +35,8 @@ int main(void)
         for(int i = 0; i < 8; i++)
         {
             printf("##");
-            print("  "):
-            print("##\n");
+            printf("  ");
+            printf("##\n");
         }
 
     }
