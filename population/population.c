@@ -21,9 +21,10 @@ int main(void)
     while(end_size >= start_size);
     // TODO: Calculate number of years until we reach threshold
     int i;
-    for(int i = 1; start_size <= end_size; i++)
+    int llamas_alive =0;
+    for(i = 1; start_size <= end_size; i++)
     {
-        int llamas_alive = llamas_alive + (start_size/3) - (end_size/4);
+        llamas_alive = llamas_alive + (start_size/3) - (end_size/4);
         return 1;
     }
     // TODO: Print number of years
