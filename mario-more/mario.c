@@ -25,7 +25,10 @@ int main(void)
 
     else
     {
-        for(plevels )
+        for(plevels; plevels< plevels + 1; plevels++);
+
+        printf("#  #");
+
     }
 
 }
