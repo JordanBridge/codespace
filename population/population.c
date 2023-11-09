@@ -29,5 +29,5 @@ int main(void)
 
     // TODO: Print number of years
 
-    printf("It would take %i years for your llamas to reach your goal", years);
+    printf("It would take %i years for your llamas to reach your goal\n", years);
 }
