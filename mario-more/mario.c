@@ -23,7 +23,6 @@ int main(void)
     {
         checker = checker + 1;
         printf("##  ##\n");
-
     }
     while(checker < plevels);
 
