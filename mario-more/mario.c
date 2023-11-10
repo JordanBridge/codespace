@@ -18,27 +18,12 @@ int main(void)
 
 
     //validate base level
-    if(plevels < 1 )
-    {
-        printf("This is an invalid number of levels for your pryamid to be properly built sir!\n");
-        return 0;
-    }
 
-    else if(plevels > 8)
+    do
     {
-        printf("This value is too high!\n");
-        return 0;
-    }
+        char *pryamid_base;
+        pryamid_base = printf("##  ##");
 
-    else
-    {
-        
-        for(int i = 0; i < 8; i++)
-        {
-            printf("##");
-            printf("  ");
-            printf("##\n");
-        }
 
     }
 
