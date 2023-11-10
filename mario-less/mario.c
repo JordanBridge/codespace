@@ -17,7 +17,7 @@ int main(void)
                 printf(" ");
             }
 
-            for(int symbol = 1; symbol <= ((2*row)-1; symbol++)
+            for(int symbol = 1; symbol <= (2*row - 1); symbol++)
             {
                 printf("#");
             }
