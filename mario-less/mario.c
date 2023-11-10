@@ -13,6 +13,11 @@ int main(void)
         for(int row = 1; i < ramp; row++)
         {
             for(int space = 0; space <=row; space--)
+            {
+                printf(" ");
+            }
+
+            
         }
 
     }
