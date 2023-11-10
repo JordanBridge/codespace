@@ -10,7 +10,7 @@ int main(void)
     if (ramp > 1)
     {
 
-        for(int i = 0; i < ramp; i++)
+        for(int row = 0; i < ramp; i++)
         {
             printf("#\n");
         }
