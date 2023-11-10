@@ -18,14 +18,13 @@ int main(void)
 
 
     //validate base level
-
+    int checker = 0;
     do
     {
-        char pryamid_base;
-        pryamid_base = printf("##  ##");
-
+        checker = checker + 1;
+        printf("##  ##\n");
 
     }
-    while()
+    while(checker < plevels);
 
 }
