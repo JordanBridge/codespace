@@ -18,7 +18,9 @@ int main(void)
             }
 
             for(int symbol = 1; symbol <= ((2*row)-1; symbol++)
-
+            {
+                printf("#");
+            }
 
         }
 
