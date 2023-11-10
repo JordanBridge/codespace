@@ -7,7 +7,10 @@ int main(void)
 
     ramp = get_string("Please state how long you want your ramp to be: ");
 
-    for(int iramp)
+    for(int i = 0; i < ramp; i++)
+    {
+        printf("#");
+    }
 
 
 
