@@ -10,7 +10,7 @@ int main(void)
     if (ramp > 1)
     {
 
-        for(int row = 1; i <= ramp; row++)
+        for(int row = 1; row <= ramp; row++)
         {
             for(int space = 1; space <= (row - ramp); space++)
             {
