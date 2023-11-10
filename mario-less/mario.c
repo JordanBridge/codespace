@@ -10,9 +10,9 @@ int main(void)
     if (ramp > 1)
     {
 
-        for(int row = 0; i < ramp; i++)
+        for(int row = 1; i < ramp; row++)
         {
-            printf("#\n");
+            for(int space = 0; space <=row:)
         }
 
     }
