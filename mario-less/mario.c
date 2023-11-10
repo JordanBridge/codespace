@@ -5,9 +5,9 @@ int main(void)
 {
     printf("Welcome to super mario!\n");
 
-    ramp = printf("Please state how long you want your ramp to be: ");
+    ramp = get_string("Please state how long you want your ramp to be: ");
 
-    for(ramp)
+    for(int iramp)
 
 
 
