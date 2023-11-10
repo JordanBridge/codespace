@@ -21,10 +21,11 @@ int main(void)
 
     do
     {
-        char *pryamid_base;
+        char pryamid_base;
         pryamid_base = printf("##  ##");
 
 
     }
+    while()
 
 }
