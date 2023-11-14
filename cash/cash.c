@@ -11,28 +11,14 @@ int main(void)
 {
     // Ask how many cents the customer is owed
     int cents = get_cents();
-    do
-    {
-        int get_cents = get_int("How many cents are the customer owed: ");
-    }
-    while (get_cents < 0);
 
     // Calculate the number of quarters to give the customer
     int quarters = calculate_quarters(cents);
-    do
-    {
-        cents = cents - quarters * 25;
-        return cents;
-    }
-    while(cents/25 =! 0);
 
+    cents = cents - quarters * 25;
 
     // Calculate the number of dimes to give the customer
     int dimes = calculate_dimes(cents);
-    do{
-
-
-    }
     cents = cents - dimes * 10;
 
     // Calculate the number of nickels to give the customer
@@ -53,6 +39,13 @@ int main(void)
 int get_cents(void)
 {
     // TODO
+    do
+    {
+        int get_cents = get_int("How many cents are the customer owed: ");
+    }
+    while (get_cents < 0);
+
+    }
     return 0;
 }
 
