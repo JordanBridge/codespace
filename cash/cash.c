@@ -19,10 +19,20 @@ int main(void)
 
     // Calculate the number of quarters to give the customer
     int quarters = calculate_quarters(cents);
-    cents = cents - quarters * 25;
+    do
+    {
+        cents = cents - quarters * 25;
+        return cents;
+    }
+    while(cents/25 =! 0);
+
 
     // Calculate the number of dimes to give the customer
     int dimes = calculate_dimes(cents);
+    do{
+
+
+    }
     cents = cents - dimes * 10;
 
     // Calculate the number of nickels to give the customer
