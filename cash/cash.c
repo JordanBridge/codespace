@@ -42,18 +42,19 @@ int get_cents(void)
     do
     {
         int get_cents = get_int("How many cents are the customer owed: ");
+        return get cents;
     }
     while (get_cents < 0);
-
-    }
-    return 0;
 }
 
 int calculate_quarters(int cents)
 {
-    // TODO
-    ca
-    return 0;
+    //TO DO
+    do
+    {
+        get_cents = get_cents - 25;
+    }
+    while(calculate quarters)
 }
 
 int calculate_dimes(int cents)
