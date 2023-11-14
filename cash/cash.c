@@ -53,8 +53,9 @@ int calculate_quarters(int cents)
     do
     {
         get_cents = get_cents - 25;
+        return get_cents;
     }
-    while(calculate quarters)
+    while(calculate quarters / 25 == 0);
 }
 
 int calculate_dimes(int cents)
