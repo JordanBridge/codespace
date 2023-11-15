@@ -11,9 +11,9 @@ int main(void)
     }
     while(height < 1 || height > 8);
 
-    for (row = 0; row <height; row++)
+    for (int row = 0; row <height; row++)
     {
-        for(collum = 0; xx; collumn++)
+        for(int collumn = 0; collumn > height/2; collumn++)
         {
             printf("#");
         }
