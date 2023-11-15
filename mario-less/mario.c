@@ -3,8 +3,20 @@
 
 int main(void)
 {
+    int height;
+
     do
     {
-        height =get_int("Enter A Height Here: ");
+       height =get_int("Enter A Height Here: ");
+    }
+    while(height < 1 || height > 8);
+
+    for (row = 0; row <height; row++)
+    {
+        printf("\n");
     }
 
+
+
+
+}
