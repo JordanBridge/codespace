@@ -12,14 +12,14 @@ int main(void)
 
     string message  = get_string("Message: ");
 
-    for int i = 0; i < strlen(message); i++)
+    for (int i = 0; i < strlen(message); i++)
     {
         unsigned char byte = message[i];
         int binary[BITS_IN_BYTE];
         int quotinent = byte;
         int remainder;
 
-        for(int j = 0; j < BYTES_IN_BYTE; j++)
+        for(int j = 0; j < BITS_IN_BYTE; j++)
         {
             remainder = quotient % 2;
             binary [j] = remainder;
