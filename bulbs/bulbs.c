@@ -10,7 +10,7 @@ int main(void)
 {
     // TODO
 
-    string message  = get_string("Message: ");
+    string message = get_string("Message: ");
 
     for (int i = 0; i < strlen(message); i++)
     {
@@ -19,20 +19,19 @@ int main(void)
         int quotient = byte;
         int remainder;
 
-        for(int j = 0; j < BITS_IN_BYTE; j++)
+        for (int j = 0; j < BITS_IN_BYTE; j++)
         {
             remainder = quotient % 2;
-            binary [j] = remainder;
+            binary[j] = remainder;
             quotient /= 2;
         }
 
-        for(int k = BITS_IN_BYTE - 1; k>= 0; k --)
+        for (int k = BITS_IN_BYTE - 1; k >= 0; k--)
         {
             print_bulb(binary[k]);
         }
         printf("\n");
     }
-
 }
 
 void print_bulb(int bit)
