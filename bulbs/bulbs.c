@@ -10,7 +10,12 @@ int main(void)
 {
     // TODO
 
-    int bulbs[10]
+    string message  = get_string("Message: ");
+
+    for int i = 0; i < strlen(message); i++)
+    {
+        
+    }
 
 }
 
