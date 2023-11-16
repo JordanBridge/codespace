@@ -14,7 +14,12 @@ int main(void)
 
     for int i = 0; i < strlen(message); i++)
     {
-        
+        unsigned char byte = message[i];
+        int binary[BITS_IN_BYTE];
+        int quotinent = byte;
+        int remainder;
+
+        for(int j = 0; j < BYTES_IN_BYTE; )
     }
 
 }
