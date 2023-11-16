@@ -22,8 +22,15 @@ int main(void)
         for(int j = 0; j < BYTES_IN_BYTE; j++)
         {
             remainder = quotient % 2;
-            binary
+            binary [j] = remainder;
+            quotient /= 2;
         }
+
+        for(int k = BITS_IN_BYTE - 1; k>= 0; k --)
+        {
+            print_bulb(binary[k]);
+        }
+        printf("/n");
     }
 
 }
