@@ -19,7 +19,11 @@ int main(void)
         int quotinent = byte;
         int remainder;
 
-        for(int j = 0; j < BYTES_IN_BYTE; )
+        for(int j = 0; j < BYTES_IN_BYTE; j++)
+        {
+            remainder = quotient % 2;
+            binary
+        }
     }
 
 }
