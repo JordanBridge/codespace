@@ -16,7 +16,7 @@ int main(void)
     {
         unsigned char byte = message[i];
         int binary[BITS_IN_BYTE];
-        int quotinent = byte;
+        int quotient = byte;
         int remainder;
 
         for(int j = 0; j < BITS_IN_BYTE; j++)
