@@ -5,10 +5,10 @@ int main(int argc, string argv[])
 {
     int caesar = argc;
 
-    for(caesar; caesar < 10; caesar--)
+    for(; caesar > 0; caesar--)
     {
 
-        printf("Praise Be To Caesar");
+        printf("Praise Be To Caesar\n");
     }
 
 }
