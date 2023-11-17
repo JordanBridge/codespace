@@ -3,7 +3,7 @@
 
 int main(int argc, string argv[])
 {
-    int caesar = int argc;
+    int caesar = argc;
 
     for(caesar; caesar = 10; caesar--)
     {
