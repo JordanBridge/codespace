@@ -3,9 +3,8 @@
 
 int main(int argc, string argv[])
 {
-    int caesar = argc;
 
-    for(; caesar > 0; caesar--)
+    for(string i; argv[i]; argv[i]++)
     {
 
         printf("Praise Be To Caesar\n");
