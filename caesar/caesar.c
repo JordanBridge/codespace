@@ -8,7 +8,7 @@ int main(int argc, string argv[])
     for(int i = 0; argv[i + 10];i++)
     {
        string message = argv[i];
-        printf("%s", message);
+        printf("%s\n", message);
     }
     return 0;
     }
