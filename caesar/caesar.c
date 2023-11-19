@@ -10,9 +10,8 @@ int main(int argc, string argv[])
 
 
         printf("Praise Be To Caesar\n");
-
-        break;
     }
+    return 0;
     }
     while(argc > 1);
 
