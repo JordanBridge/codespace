@@ -5,11 +5,10 @@ int main(int argc, string argv[])
 {
     do
     {
-    for(int i = 0; argv[i]!= NULL;i++)
+    for(int i = 0; argv[i + 10];i++)
     {
-
-
-        printf("Praise Be To Caesar\n");
+       string message = argv[i];
+        printf("%s", message);
     }
     return 0;
     }
