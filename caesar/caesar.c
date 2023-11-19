@@ -3,12 +3,17 @@
 
 int main(int argc, string argv[])
 {
-
+    do
+    {
     for(int i = 0; argv[i]!= NULL;i++)
     {
 
-        
+
         printf("Praise Be To Caesar\n");
+
+        break;
     }
+    }
+    while(argc > 1);
 
 }
