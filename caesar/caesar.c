@@ -9,8 +9,11 @@ int main(int argc, string argv[])
     {
        string message = argv[i];
 
-       for(k = 0; i );
-        printf("%s\n", message);
+       for(k = 0; strlen(message); k++)
+       {
+        
+       }
+
     }
     return 0;
     }
