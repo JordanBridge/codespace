@@ -12,7 +12,6 @@ int main(int argc, string argv[])
        for(int k = 0; message[k]; k++)
        {
         printf("%c\n",message[k]);
-        strcat)
        }
 
     }
