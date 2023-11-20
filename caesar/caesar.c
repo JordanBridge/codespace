@@ -34,7 +34,7 @@ int main(int argc, string argv[])
                 printf("%c", (plaintext[j] - 65 + k) % 26 + 65);
             }
 
-            else if(is lower(plaintext[j]))
+            else if(islower(plaintext[j]))
             {
                 printf("%c", (plaintext[j] - 97 + k) % 26 + 97);
             }
@@ -47,5 +47,3 @@ int main(int argc, string argv[])
         printf("\n");
     }
 
-
-}
