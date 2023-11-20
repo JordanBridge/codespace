@@ -9,7 +9,7 @@ int main(int argc, string argv[])
     {
        string message = argv[i];
 
-       for(char k = 0; message[k + 3]; k++)
+       for(int k = 0; message[k + 3]; k++)
        {
         printf("%s", message);
        }
