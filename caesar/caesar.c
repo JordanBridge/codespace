@@ -31,12 +31,12 @@ int main(int argc, string argv[])
         {
             if(isupper(plaintext[j]))
             {
-                printf(("%c", (plaintext[j] - 65 + k) % 26 + 65))
+                printf("%c", (plaintext[j] - 65 + k) % 26 + 65);
             }
 
             else if(is lower(plaintext[j]))
             {
-                printf(("%c", (plaintext[j] - 97 + k) % 26 + 97))
+                printf("%c", (plaintext[j] - 97 + k) % 26 + 97);
             }
             else
             {
