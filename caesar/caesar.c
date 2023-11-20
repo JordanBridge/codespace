@@ -9,14 +9,13 @@ int main(int argc, string argv[])
     {
     for(int i = 0; argv[i];i++)
     {
-       string message = argv[i];
 
        for(int k = 0;k < n; k++)
        {
-        message[i]++;
+        argv[i]++;
        }
 
-       printf("%s", message);
+       printf("%c\n", argv);
     }
     return 0;
     }
