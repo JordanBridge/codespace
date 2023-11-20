@@ -3,13 +3,15 @@
 
 int main(int argc, string argv[])
 {
+    int n = 13;
+
     do
     {
     for(int i = 0; argv[i];i++)
     {
        string message = argv[i];
 
-       for(int k = 0; message[k + 3] ; k++)
+       for(int k = 0;k; k++)
        {
         printf("%s", message);
        }
