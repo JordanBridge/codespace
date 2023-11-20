@@ -20,12 +20,12 @@ int main(int argc, string argv[])
             printf("Usage ./caesar key \n");
             return 1;
         }
-
+    }
         int k = atoi(argv[1]);
 
         string plaintext = get_string("Plaintext: ");
         printf("Ciphertext: ");
-    }
+
 
         for(int j = 0; j < strlen(plaintext); j++)
         {
