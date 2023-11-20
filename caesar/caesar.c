@@ -9,9 +9,9 @@ int main(int argc, string argv[])
     {
        string message = argv[i];
 
-       for(int k = 0; message[k]; k++)
+       for(char k = 0; message[k + 3]; k++)
        {
-        printf("%c\n",message[k]);
+        printf("%s", message);
        }
 
     }
