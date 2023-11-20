@@ -3,7 +3,7 @@
 
 int main(int argc, string argv[])
 {
-    int n = 1;
+    int n = 3;
 
     do
     {
