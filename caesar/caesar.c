@@ -11,7 +11,7 @@ int main(int argc, string argv[])
     {
        string message = argv[i];
 
-       for(int k = 0;k < n; k++)
+       for(int k = 0;k < 10; k++)
        {
         message[i]++;
         printf("%s\n", message);
@@ -20,6 +20,6 @@ int main(int argc, string argv[])
     }
     return 0;
     }
-    while(argc > 2);
+    while(argc > 1);
 
 }
