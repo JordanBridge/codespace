@@ -11,12 +11,12 @@ int main(int argc, string argv[])
     {
        string message = argv[i];
 
-       for(int k = 0;k < 10; k++)
+       for(int k = 0;k < ; k++)
        {
         message[i]++;
-        printf("%s\n", message);
        }
 
+       printf("%s", message);
     }
     return 0;
     }
