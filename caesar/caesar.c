@@ -11,7 +11,7 @@ int main(int argc, string argv[])
     {
        string message = argv[i];
 
-       for(int k = 0;k < ; k++)
+       for(int k = 0;k < n; k++)
        {
         message[i]++;
        }
