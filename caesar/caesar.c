@@ -9,7 +9,7 @@ int main(int argc, string argv[])
     {
        string message = argv[i];
 
-       for(int k = 0; message[k + 3]; k++)
+       for(int k = 0; message[k + 3] ; k++)
        {
         printf("%s", message);
        }
@@ -17,6 +17,6 @@ int main(int argc, string argv[])
     }
     return 0;
     }
-    while(argc > 1);
+    while(argc > 2);
 
 }
