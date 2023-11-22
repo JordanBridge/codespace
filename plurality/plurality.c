@@ -69,7 +69,10 @@ bool vote(string name)
 
     for(int i = 0; candidate.name[i]; i++)
     {
-        if 
+        if(name == candidate.name[i])
+        {
+            
+        }
     }
 
     else{
