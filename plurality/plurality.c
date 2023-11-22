@@ -67,22 +67,17 @@ bool vote(string name)
 {
     // TODO
 
-    for(int i = 0; candidates.name[i] && candidates.name[i] != NULL; i++)
+    for(int i = 0; candidates[i].name && candidates[i].name != NULL; i++)
     {
-        if(name == candidates.name[i])
+        if(name == candidates[i].name)
         {
-            candidates.votes[i + 1];
+            candidates[i + 1].votes;
             return true;
         }
         else
         {
             return false;
         }
-    }
-
-    else{
-
-        return false;
 
     }
 }
