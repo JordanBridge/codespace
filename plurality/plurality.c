@@ -88,5 +88,7 @@ bool vote(string name)
 void print_winner(void)
 {
     // TODO
+    for()
+    printf("Candidate %s has won the election with %d votes!", name, votes)
     return;
 }
