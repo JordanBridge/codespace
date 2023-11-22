@@ -69,7 +69,7 @@ bool vote(string name)
 
     for(int i = 0; candidates[i].name && candidates[i].name != NULL; i++)
     {
-        if((strcmp(name, candidates[i])) == 0)
+        if((strcmp(name, candidates[i].name)) == 0)
         {
             candidates[i].votes = candidates[i + 1].votes;
             return true;
