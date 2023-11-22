@@ -72,6 +72,7 @@ bool vote(string name)
         if(name == candidate.name[i])
         {
             candidate.votes[i + 1];
+            return true;
         }
         else
         {
