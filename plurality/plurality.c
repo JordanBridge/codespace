@@ -71,7 +71,7 @@ bool vote(string name)
     {
         if(name == candidate.name[i])
         {
-            candidate.vote[i + 1];
+            candidate.votes[i + 1];
         }
         else
         {
