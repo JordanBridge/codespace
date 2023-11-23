@@ -88,7 +88,7 @@ return false;
 void print_winner(void)
 {
     // TODO
-    for(int x = 0; candidates[x].name && candidates[x].votes && candidates[x] != 9; x++)
+    for(int x = 0; candidates[x].name && candidates[x].votes && candidates[x].name != NULL; x++)
     {
         if(candidates[x].votes > candidates[x].votes - 1)
         {
