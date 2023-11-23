@@ -88,8 +88,11 @@ return false;
 
 void print_winner(void)
 {
+    int max_vote
     // TODO
     for(int x = 0; candidates[x].name && candidates[x].votes; x++)
+
+
     {
         if(candidates[x].votes > candidates[x].votes - 1 && candidates[x].name != NULL)
         {
