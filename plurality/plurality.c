@@ -91,7 +91,7 @@ void print_winner(void)
     // TODO
     for(int x = 0; candidates[x].name && candidates[x].votes; x++)
     {
-        if(candidates[x].votes > candidates[x].votes - 1)
+        if(candidates[x].votes > candidates[x].votes - 1 && candidates[x].name != NULL)
         {
           printf("Candidate %s has won the election with %d votes!", candidates.name[x], candidates.votes[x]);
         }
