@@ -86,7 +86,7 @@ bool vote(string name)
 void print_winner(void)
 {
     // TODO
-    for()
+    for(int i = 0; candidates[i] != NULL; i++)
     {
         printf("Candidate %s has won the election with %d votes!", name, votes);
     }
