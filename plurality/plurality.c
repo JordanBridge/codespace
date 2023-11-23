@@ -80,13 +80,15 @@ bool vote(string name)
             return false;
         }
     }
+
+return false;
 }
 
 // Print the winner (or winners) of the election
 void print_winner(void)
 {
     // TODO
-    for(int i = 0; candidates[i] != NULL; i++)
+    for(int i = 0; candidates[i]; i++)
     {
         printf("Candidate %s has won the election with %d votes!", name, votes);
     }
