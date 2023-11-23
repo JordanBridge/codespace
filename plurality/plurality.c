@@ -88,10 +88,12 @@ return false;
 void print_winner(void)
 {
     // TODO
-    for(int i = 0; candidates[i].name && candidates[i].votes; i++)
+    for(int x = 0; candidates[x].name && candidates[x].votes && candidates[x] != 9; x++)
     {
-        for(int i = 1; candidates[i])
-        printf("Candidate %s has won the election with %d votes!", name, votes);
+        if(candidates[x].votes > candidates[x].votes - 1)
+        {
+            printf("Candidate %s has won the election with %d votes!", candidates.name[x], candidates.votes[x]);
+        }
     }
 
     return;
