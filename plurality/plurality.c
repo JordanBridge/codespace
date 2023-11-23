@@ -96,15 +96,13 @@ void print_winner(void)
     {
         if(candidates[j].votes > max_vote)
         {
-            
+            max_vote = candidates[j].votes;
         }
     }
 
-    for(int x = 0; candidates[x].name && candidates[x].votes; x++)
-
-
+    for(int x = 0; x < candidate_count; x++ )
     {
-        if(candidates[x].votes > candidates[x].votes - 1 && candidates[x].name != NULL)
+        if(candidates[x].votes == max_vote)
         {
           printf("Candidate %s has won the election with %d votes!", candidates.name[x], candidates.votes[x]);
         }
