@@ -129,8 +129,8 @@ bool vote(int voter, int rank, string name)
 {
     // TODO
 
-    for (
-        if strcmp()
+    for (int x = 0; )
+        if strcmp(candidates.nae)
     return false;
 }
 
