@@ -137,8 +137,9 @@ bool vote(int voter, int rank, string name)
             {
                 if(candidates[x] == candidates[0])
                 {
-                    
+                    candidates[x] == 0
                 }
+                
             }
 
 
