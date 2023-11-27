@@ -135,7 +135,6 @@ bool vote(int voter, int rank, string name)
             candidates[i].votes++;
 
         }
-
     return false;
 }
 
