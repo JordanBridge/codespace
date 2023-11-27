@@ -129,7 +129,8 @@ bool vote(int voter, int rank, string name)
 {
     // TODO
 
-    for if strcmp()
+    for (
+        if strcmp()
     return false;
 }
 
