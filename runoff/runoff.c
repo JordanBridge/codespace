@@ -132,21 +132,7 @@ bool vote(int voter, int rank, string name)
     {
         if(strcmp(name, candidates[i].name) == 0)
         {
-
-            for(int x = 0; candidates[x].name; x++)
-            {
-                if(candidates[x].name == candidates[0].name)
-                {
-                    candidates[x] == 0
-                }
-
-                else if(candidates[x].name == candidates[2].name)
-                {
-
-                }
-
-            }
-
+            
 
         }
     return false;
