@@ -128,7 +128,7 @@ int main(int argc, string argv[])
 bool vote(int voter, int rank, string name)
 {
     // TODO
- for(int i = 0; preferences[][i] != NULL; i++)
+ for(voter, rank; preferences[voter][rank] != NULL; voter++ rank++)
     {
 
         if(strcmp(name, candidates[i].name) == 0)
