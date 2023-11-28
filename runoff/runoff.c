@@ -132,7 +132,7 @@ bool vote(int voter, int rank, string name)
     {
         for(rank;)
         {
-
+             for(voter, rank; preferences[voter][rank] != NULL; voter++ rank++)
         }
 
     }
