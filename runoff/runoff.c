@@ -128,7 +128,6 @@ int main(int argc, string argv[])
 bool vote(int voter, int rank, string name)
 {
     // TODO
- int preferences[];
  for(int i = 0; candidates[i].name != NULL; i++)
     {
 
