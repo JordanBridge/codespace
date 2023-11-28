@@ -128,8 +128,7 @@ int main(int argc, string argv[])
 bool vote(int voter, int rank, string name)
 {
     // TODO
- for
- int[] preferences = preferences[0]
+ int preferences[];
  for(int i = 0; candidates[i].name != NULL; i++)
     {
 
