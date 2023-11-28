@@ -128,7 +128,7 @@ int main(int argc, string argv[])
 bool vote(int voter, int rank, string name)
 {
     // TODO
- for(vote ; voter++ rank++)
+ for(voter;  ; voter++)
     {
         for(rank;)
         {
