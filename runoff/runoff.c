@@ -133,7 +133,7 @@ bool vote(int voter, int rank, string name)
     {
         for(rank = 0; rank < MAX_CANDIDATES; rank++)
         {
-            if(name )
+            if(name == candidates.name )
         }
 
     }
