@@ -133,7 +133,10 @@ bool vote(int voter, int rank, string name)
     {
         for(rank = 0; rank < MAX_CANDIDATES; rank++)
         {
-            if(name == candidates.name )
+            if(candidates[].name == "july" && candidates[].name != NULL)
+            {
+                printf("hello");
+            }
         }
 
     }
