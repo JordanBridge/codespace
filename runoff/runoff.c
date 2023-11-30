@@ -129,15 +129,9 @@ bool vote(int voter, int rank, string name)
 {
     // TODO
 
- for(voter = 0; voter < MAX_VOTERS ; voter++)
+    for(int i = 0; i < candidate_count; i++)
     {
-        for(rank = 0; rank < MAX_CANDIDATES; rank++)
-        {
-            if(rank == candidates[].name)
-            {
-                printf("hello");
-            }
-        }
+        if(strcmp(candidates[i], name) == 0)
 
     }
     return false;
