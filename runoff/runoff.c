@@ -166,9 +166,7 @@ bool print_winner(void)
 
     for(j = 0;  j < preferences[rank]; j++ )
     {
-
-
-
+        
         return true;
     }
 
