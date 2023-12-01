@@ -159,7 +159,9 @@ void tabulate(void)
 
             {
                 preferences[][g] = 0;
-                preferences[][g] 
+                preferences[][g];
+
+                for(preferences[g]; preferences)
             }
 
             preferences[rank] ++
