@@ -160,7 +160,7 @@ void tabulate(void)
             {
                 preferences[x][g] = 0;
                 preferences[x][g]++;
-                preferences[x][g] +1;
+                preferences[x][g + 1]++;
             }
 
             return;
