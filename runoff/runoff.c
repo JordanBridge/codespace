@@ -151,14 +151,14 @@ void tabulate(void)
 
             if(candidates[g].eliminated == false)
             {
-                preferences[rank] + 1;
+                preferences[rank] ++;
+
             }
 
-            else
+            else if(candidates[g].eliminated == true)
 
             {
-
-                
+                candidates
             }
 
             preferences[rank] ++
