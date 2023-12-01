@@ -164,7 +164,10 @@ bool print_winner(void)
 {
     // TODO
 
-    for(x = 0;  )
+    for(j = 0; )
+    {
+
+    }
 
     return false;
 }
