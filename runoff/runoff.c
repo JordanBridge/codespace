@@ -151,15 +151,15 @@ void tabulate(void)
 
             if(candidates[g].eliminated == false)
             {
-                preferences[][g] ++;
+                preferences[i][g] ++;
 
             }
 
             else if(candidates[g].eliminated == true)
 
             {
-                preferences[][g] = 0;
-                preferences[][g]+1;
+                preferences[i][g] = 0;
+                preferences[i][g]+1;
 
                 for(preferences[g]; preferences)
             }
