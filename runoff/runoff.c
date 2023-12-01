@@ -151,8 +151,19 @@ void tabulate(void)
 
             if(candidates[g].eliminated == false)
             {
-                preferences[] + 1;
+                preferences[rank] + 1;
             }
+
+            else
+
+            {
+
+                
+            }
+
+            preferences[rank] ++
+
+            return;
         }
     }
     // TODO
