@@ -164,9 +164,9 @@ bool print_winner(void)
 {
     // TODO
 
-    for(j = 0; preferences[voter]  ; j++ )
+    for(j = 0;  j < preferences[voter]; j++ )
     {
-
+        
     }
 
     return false;
