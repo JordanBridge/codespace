@@ -146,21 +146,21 @@ void tabulate(void)
     for(int x = 0; x < candidate_count; x++)
     {
 
-        for(int g = 0; g < preferences[MAX_CANDIDATES]; g++)
+        for(int g = 0; g < MAX_CANDIDATES; g++)
         {
 
             if(candidates[g].eliminated == false)
             {
-                preferences[i][g] ++;
+                preferences[x][g] ++;
 
             }
 
             else if(candidates[g].eliminated == true)
 
             {
-                preferences[i][g] = 0;
-
-                preferences[][]++;
+                preferences[x][g] = 0;
+                preferences[x][g]++;
+                preferences[x][g] +1;
             }
 
             return;
