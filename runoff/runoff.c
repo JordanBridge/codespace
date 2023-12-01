@@ -151,7 +151,7 @@ void tabulate(void)
 
             if(candidates[g].eliminated == false)
             {
-                preferences[rank] ++;
+                preferences[][g] ++;
 
             }
 
@@ -159,7 +159,7 @@ void tabulate(void)
 
             {
                 preferences[][g] = 0;
-                preferences[][g];
+                preferences[][g]+1;
 
                 for(preferences[g]; preferences)
             }
