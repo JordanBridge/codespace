@@ -164,7 +164,7 @@ bool print_winner(void)
 {
     // TODO
 
-    for(j = 0; )
+    for(j = 0; preferences[voter]  ; j++ )
     {
 
     }
