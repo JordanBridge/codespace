@@ -146,7 +146,7 @@ void tabulate(void)
     for(int - 0; x < candidate_count; x++)
     {
 
-        for(g; g < preferences[rank]; g++)
+        for(g; g < preferences[MAX_CANDIDATES]; g++)
         {
 
             if(candidates[g].eliminated == false)
