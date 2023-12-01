@@ -146,13 +146,12 @@ void tabulate(void)
     for(int - 0; x < candidate_count; x++)
     {
 
-        for(g; g < preferences[rank]; g++)
+        for(g; g < preferences[voter]; g++)
         {
 
-            if(candidates[i].eliminated = false)
+            if(candidates[g].eliminated == false)
             {
-
-                
+                preferences[rank] + 1;
             }
         }
     }
@@ -164,6 +163,7 @@ void tabulate(void)
 bool print_winner(void)
 {
     // TODO
+    
     return false;
 }
 
