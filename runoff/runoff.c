@@ -175,11 +175,6 @@ bool print_winner(void)
 {
     // TODO
 
-    for(j = 0;  j < preferences[rank]; j++ )
-    {
-
-    }
-
     return false;
 }
 
