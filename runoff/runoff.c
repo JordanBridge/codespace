@@ -175,7 +175,12 @@ bool print_winner(void)
 {
     // TODO
 
-    for 
+    for(int ranker = 0; ranker < ;)
+
+    {
+
+    }
+
 
     return false;
 }
