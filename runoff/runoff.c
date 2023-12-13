@@ -175,8 +175,7 @@ bool print_winner(void)
 {
     // TODO
 
-    for(int ranker = 0; ranker < ;)
-
+    for(int ranker = 0; ranker < preferences[g]; ranker++)
     {
 
     }
