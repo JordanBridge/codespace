@@ -179,7 +179,7 @@ bool print_winner(void)
     {
         if(preferences[x][g] > preferences[g])
         {
-            printf("Congrats to %s! You have won the election!"); 
+            printf("Congrats to %s! You have won the election!"preferences[g]);
         }
     }
 
