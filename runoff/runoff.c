@@ -177,7 +177,10 @@ bool print_winner(void)
 
     for(int ranker = 0; ranker < preferences[g]; ranker++)
     {
-
+        if(preferences[x][g] > preferences[g])
+        {
+            printf("Congrats to %s! You have won the election!");
+        }
     }
 
 
