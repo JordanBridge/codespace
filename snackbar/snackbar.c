@@ -87,10 +87,24 @@ void add_items(void)
     menu[3].price = 7.0;
 
     menu[4].item = "Fries";
-    menu[4].price = 7.0;
+    menu[4].price = 5.0;
 
     menu[5].item = "Cheese Fries";
-    menu[5].price = 5.0;
+    menu[5].price = 6.0;
+
+    menu[6].item = "Cold Pressed Juice";
+    menu[6].price = 7.0;
+
+    menu[7].item = "Cold Brew";
+    menu[7].price = 3.0;
+
+    menu[8].item = "Water";
+    menu[8].price = 2.0;
+
+    menu[9].item = "Soda";
+    menu[9].price = 2.0;
+
+
 
     return;
 }
