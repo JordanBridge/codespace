@@ -80,6 +80,15 @@ void add_items(void)
     menu[1].item = "Vegan Burger";
     menu[1].price = 11.0;
 
+    menu[2].item = "Hot Dog";
+    menu[2].price = 5.0;
+
+    menu[3].item = "Cheese Dog";
+    menu[3].price = 7.0;
+
+    menu[4].item = "Fries";
+    menu[2].price = 7.0;
+
     return;
 }
 
