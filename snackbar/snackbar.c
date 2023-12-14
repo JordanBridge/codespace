@@ -87,7 +87,10 @@ void add_items(void)
     menu[3].price = 7.0;
 
     menu[4].item = "Fries";
-    menu[2].price = 7.0;
+    menu[4].price = 7.0;
+
+    menu[5].item = "Cheese Fries";
+    menu[5].price = 5.0;
 
     return;
 }
